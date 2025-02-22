@@ -3,111 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gene Zeiniss - Backend Engineer</title>
+    <title>Gene - Backend Engineer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         .container {
             max-width: 800px;
-            margin: auto;
-            background: white;
+            margin: 20px auto;
             padding: 20px;
-            border-radius: 10px;
+            background: #fff;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1, h2, h3 {
             color: #333;
         }
         a {
-            color: #0073b1;
+            color: #007BFF;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        ul {
-            padding-left: 20px;
-        }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+        .testimonial {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #007BFF;
+            margin-bottom: 15px;
+        }
+        .testimonial p {
+            margin: 0;
+        }
+        .contact-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Hi, I’m Gene!</h1>
-    <p>A Backend Engineer specializing in <strong>Java, Spring Boot, Microservices, and Latency-Sensitive Systems</strong> for <strong>FinTech and eCommerce</strong> platforms.</p>
-    <p>I bring <strong>13+ years of experience in software development</strong>, with a strong focus on <strong>backend architecture, system scalability, and high-performance applications</strong>.</p>
-    <p>Let’s build something amazing together! 🚀</p>
+    <!-- Introduction Section -->
+    <div class="section">
+        <h1>Hi, I’m Gene!</h1>
+        <p>A Backend Engineer specializing in Java, Spring Boot, Microservices, and Latency-Sensitive Systems for FinTech and eCommerce platforms.</p>
+        <p>I bring 13+ years of experience in software development, with a strong focus on backend architecture, system scalability, and high-performance applications.</p>
+        <p>Let’s build something amazing together! 🚀</p>
+        <p>Find me on:
+            <a href="https://www.linkedin.com/in/genezeiniss/">LinkedIn</a>,
+            <a href="https://medium.com/@genezeiniss">Medium Blog</a>,
+            <a href="https://www.fiverr.com/sellers/gene_zeiniss/">Fiverr</a>,
+            <a href="https://www.upwork.com/freelancers/~017adf252cb8e71786">Upwork</a>, and
+            <a href="https://www.codementor.io/@genezeiniss">Codementor</a>.</p>
+    </div>
 
-    <h3>Find me on:</h3>
-    <p>
-        <a href="https://www.linkedin.com/in/genezeiniss/">LinkedIn</a> |
-        <a href="https://medium.com/@genezeiniss">Medium Blog</a> |
-        <a href="https://www.fiverr.com/sellers/gene_zeiniss/">Fiverr</a> |
-        <a href="https://www.upwork.com/freelancers/~017adf252cb8e71786">Upwork</a> |
-        <a href="https://www.codementor.io/@genezeiniss">Codementor</a>
-    </p>
-
+    <!-- About Me Section -->
     <div class="section">
         <h2>About Me</h2>
+        <p><strong>Experience:</strong> 13+ years in software development, including 9 years in FinTech.</p>
+        <p><strong>Tech Skills:</strong> Java, Spring Boot, Microservices, Domain-Driven Design (DDD), Relational Databases (PostgreSQL, MySQL), Event-Driven Architecture, and API Development.</p>
+        <p><strong>Key Contributions:</strong></p>
         <ul>
-            <li><strong>Experience:</strong> 13+ years in software development, including 9 years in FinTech.</li>
-            <li><strong>Tech Skills:</strong> Java, Spring Boot, Microservices, DDD, PostgreSQL, MySQL, Event-Driven Architecture.</li>
-            <li><strong>Key Contributions:</strong></li>
-            <ul>
-                <li>Developed mission-critical financial integrations.</li>
-                <li>Spearheaded payment processing & credit services architecture.</li>
-                <li>Built scalable backend solutions for high-volume eCommerce platforms.</li>
-            </ul>
+            <li>Developed and led mission-critical financial integrations for large-scale platforms.</li>
+            <li>Spearheaded payment processing and credit services architecture.</li>
+            <li>Built scalable backend solutions for eCommerce platforms handling high transaction volumes.</li>
+        </ul>
+        <p><strong>Beyond Tech:</strong></p>
+        <ul>
+            <li><strong>Mentorship & Leadership:</strong> Code Mentor, Backend Guild Lead, Tech Speaker.</li>
+            <li><strong>Blogging & Community:</strong> Tech blogger, volunteered as Co-Manager of Baot's Tech-Blogging Program, guiding women in tech to publish their first technical blog.</li>
+            <li><strong>Advocacy:</strong> Led Intuit Women’s Network ERG, fostering professional growth for women in tech.</li>
         </ul>
     </div>
 
+    <!-- Services Section -->
     <div class="section">
         <h2>Services</h2>
         <ul>
-            <li>✅ Backend Development (Java & Spring Boot)</li>
-            <li>✅ Code Review & Optimization</li>
-            <li>✅ Technical Consulting</li>
-            <li>✅ Mentorship & Coaching</li>
+            <li>✅ <strong>Backend Development:</strong> High-performance Java & Spring Boot applications.</li>
+            <li>✅ <strong>Code Review & Optimization:</strong> Enhancing code quality, maintainability, and efficiency.</li>
+            <li>✅ <strong>Technical Consulting:</strong> Helping teams design scalable architectures & improve system performance.</li>
+            <li>✅ <strong>Mentorship & Coaching:</strong> Supporting developers in mastering Java backend technologies.</li>
         </ul>
     </div>
 
+    <!-- Blog & Public Speaking Section -->
     <div class="section">
-        <h2>Case Studies</h2>
-        <h3>📌 Transitioning from Monolith to Microservices with an Anti-Corruption Layer</h3>
-        <p><strong>Background:</strong> Led the transition from a monolithic system to microservices at Behalf, ensuring seamless integration while maintaining system integrity.</p>
-        <p><strong>Challenges:</strong></p>
+        <h2>Blog & Public Speaking</h2>
+        <p><strong>📌 Featured Blog Posts:</strong></p>
         <ul>
-            <li>Legacy system dependencies</li>
-            <li>Semantic and lifecycle mismatches</li>
-            <li>Incremental rollout complexity</li>
-            <li>Data consistency & synchronization</li>
+            <li><a href="https://medium.com/geekculture/data-migration-with-no-frustration-89147454ff2e?source=friends_link&sk=c759bf4133568242279c17285208e85c">Data Migration With No Frustration</a></li>
+            <li><a href="https://medium.com/swlh/design-patterns-saga-the-paper-doll-2ebdd2d68d78?source=friends_link&sk=b550e9b3c2ecf8cb20a644bf16d892a9">Design Patterns Saga: The Paper Doll</a></li>
+            <li><a href="https://medium.com/better-programming/zen-and-the-art-of-code-handling-38e6e5fc2ccc?source=friends_link&sk=5df9802f902b2746befc6bd1956c05cf">Zen and the Art of Code Handling</a></li>
+            <li><a href="https://medium.com/swlh/java-stream-reduce-method-8a000a15b047?source=friends_link&sk=4869bbae8d996171620638891b9043f9">Reduce in Java Stream</a></li>
         </ul>
-        <p><strong>Solution:</strong> Implemented an Anti-Corruption Layer (ACL) to facilitate smooth migration.</p>
-        <p><strong>Impact:</strong> Ensured a structured and sustainable transition while minimizing disruptions.</p>
-
-        <h3>📌 Implementing a Hybrid SDK for Sensitive Data Detection</h3>
-        <p><strong>Background:</strong> Designed a Hybrid SDK at Intuit for latency-sensitive applications, enabling dynamic updates without requiring SDK upgrades.</p>
-        <p><strong>Challenges:</strong> Ensuring continuous classifier updates without disrupting customers.</p>
-        <p><strong>Solution:</strong> Developed a system using Configuration as Code principles, leveraging remote configuration management.</p>
-        <p><strong>Impact:</strong> Eliminated forced SDK upgrades, improved performance, and provided better client visibility.</p>
+        <p><strong>📌 Speaking Engagements:</strong></p>
+        <ul>
+            <li>Intuit <> SheCodes Event: <a href="https://www.youtube.com/watch?v=KxteEYDbYfI&t=86s&ab_channel=GeneZeiniss">A Real-World Examples of Serverless Architecture on AWS (Hebrew)</a></li>
+            <li>Technical Blogging Program: <a href="https://www.youtube.com/watch?v=7y4hB9xp4bI&t=19s&ab_channel=GeneZeiniss">The Motivation (Hebrew)</a></li>
+            <li>Women on Stage: <a href="https://www.youtube.com/watch?v=AwbADLAR2D0&t=11s&ab_channel=GeneZeiniss">The Side Effects of Over Testing and How to Manage Them</a></li>
+        </ul>
+        <p><strong>📌 Tech Tutorials & Videos:</strong> Coming soon on <a href="#">LinkedIn</a> & <a href="#">YouTube</a>!</p>
     </div>
 
+    <!-- Testimonials Section -->
     <div class="section">
-        <h2>Testimonials</h2>
-        <p>✨ "Gene is a seasoned developer with a strong technical background. She possesses a deep understanding of software development principles and is adept at tackling complex technical challenges." – Yerucham Berkowitz</p>
-        <p>✨ "Her abilities to develop elegant and clean code are remarkable, and she does it very fast with no compromises on the quality." – Gui Barkai</p>
+        <h2>Testimonials & Recommendations</h2>
+        <div class="testimonial">
+            <p>✨ "Gene is a seasoned developer with a strong technical background. She possesses a deep understanding of software development principles and is adept at tackling complex technical challenges. At Intuit, she played a key role in developing our state-of-the-art, internal services for sensitive data detection and masking." – <strong>Yerucham Berkowitz | Former Manager</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>✨ "Her abilities to develop elegant and clean code are remarkable, and she does it very fast with no compromises on the quality. Gene loves to learn new things and share her knowledge with others." – <strong>Gui Barkai | Former Manager</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>✨ "During our time together Gene went from an aspiring beginner to a veteran professional. She became a leading developer within the department, took over the Backend Guild, and is now a valuable member of a critical production team." – <strong>Yonni Mendes | Former manager</strong></p>
+        </div>
     </div>
 
+    <!-- Case Studies Section -->
     <div class="section">
-        <h2>Contact</h2>
-        <p>📩 Reach out via <a href="mailto:gene.zeiniss@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/genezeiniss/">LinkedIn</a></p>
+        <h2>Featured Case Studies (Real-World Projects)</h2>
+        <h3>📌 Case Study: Implementing a Hybrid SDK for Sensitive Data Detection</h3>
+        <p><strong>Background</strong></p>
+        <p>At Intuit, as the lead engineer for a Java-based application that detects sensitive data, I was responsible for preventing data leakage and safeguarding customer information. The application included a RESTful service and a Hybrid SDK designed for latency-sensitive clients.</p>
+        <p><strong>Challenge</strong></p>
+        <p>Frequent Updates: The classifiers used for sensitive data detection evolved continuously, requiring a way to push updates without forcing SDK upgrades.</p>
+        <p><strong>Solution</strong></p>
+        <p>To overcome these challenges, I designed and developed a Hybrid SDK architecture that decoupled dynamic components, such as data classifiers and validation logic, from the SDK itself. This allowed us to:</p>
+        <ul>
+            <li>Offload dynamic configuration to an external repository.</li>
+            <li>Load classifiers dynamically without requiring SDK updates.</li>
+            <li>Monitor SDK usage and performance across different clients.</li>
+        </ul>
+        <p><strong>Results & Impact</strong></p>
+        <ul>
+            <li>Eliminated Forced SDK Upgrades: Clients could seamlessly receive classification updates without modifying their SDK version.</li>
+            <li>Improved Performance: The Hybrid SDK optimized latency by combining local execution with dynamic remote configuration.</li>
+            <li>Better Visibility & Control: The monitoring system provided insights into SDK usage, client versions, and performance trends.</li>
+            <li>Scalability for Future Growth: The architecture supported Intuit’s roadmap to expand classification coverage from 40 to over 200 data types.</li>
+        </ul>
+
+        <h3>📌 Case Study: Transitioning from Monolith to Microservices with an Anti-Corruption Layer</h3>
+        <p><strong>Background</strong></p>
+        <p>At Behalf, we embarked on a strategic initiative to transition from a monolithic architecture to microservices. This was a necessary step to improve scalability, flexibility, and maintainability.</p>
+        <p><strong>Challenges</strong></p>
+        <ul>
+            <li>Legacy System Dependencies – The majority of internal processes still relied on the monolithic system, which made a full transition impractical in the short term.</li>
+            <li>Semantic and Lifecycle Mismatch – The legacy system and the new microservice had different semantics and entity lifecycles, making them completely incompatible.</li>
+            <li>Incremental Rollout Complexity – The new microservice had to be rolled out gradually without disrupting ongoing business operations.</li>
+            <li>Data Consistency & Synchronization – Ensuring data consistency between the monolith and the microservices was crucial to avoid discrepancies.</li>
+        </ul>
+        <p><strong>Solution</strong></p>
+        <p>To address these challenges, I introduced an Anti-Corruption Layer (ACL) that acted as an intermediary between the legacy system and the new microservice. This layer was responsible for:</p>
+        <ul>
+            <li>Translating requests and responses between the two systems.</li>
+            <li>Ensuring data consistency across different entity lifecycles.</li>
+            <li>Allowing the microservice to operate with its domain model, free from legacy constraints.</li>
+        </ul>
+        <p><strong>Results & Impact</strong></p>
+        <ul>
+            <li>The ACL successfully enabled a smooth transition, allowing both systems to coexist without major disruptions.</li>
+            <li>Business operations continued without interruptions, even as internal processes gradually shifted to microservices.</li>
+            <li>The approach minimized rework and prevented legacy dependencies from corrupting the new system’s design.</li>
+        </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <h2>Contact & Call to Action</h2>
+        <p>💡 "Let's Build Something Amazing Together!"</p>
+        <div class="contact-links">
+            <a href="gene.zeiniss@gmail.com">📩 Email</a>
+            <a href="https://www.linkedin.com/in/genezeiniss/">LinkedIn</a>
+            <a href="https://www.fiverr.com/sellers/gene_zeiniss/">Fiverr</a>
+            <a href="https://www.upwork.com/freelancers/~017adf252cb8e71786">Upwork</a>
+            <a href="https://www.codementor.io/@genezeiniss">Codementor</a>
+        </div>
     </div>
 </div>
 </body>
